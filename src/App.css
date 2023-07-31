@@ -1,0 +1,54 @@
+.headerName{
+  color: maroon;
+  text-align: center;
+}
+
+.headerName--button{
+  padding: 1rem 1.5rem;
+  background: maroon;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  margin-top: 2rem;
+  transform: translateX(-50%);
+}
+
+
+.list{
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+
+.list__item{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.list__item__span{
+  background-color: maroon;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.list__item__button{
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: chocolate;
+}
+
+.clr-white{
+  color: white;
+}
